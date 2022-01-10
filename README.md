@@ -1,4 +1,4 @@
-# Dotenv properties repository #
+# Dotenv properties repository
 ---
 Dotenv is the tool used to orchestrate the environment variables of a project; <br>
 <em>npm i dotenv</em> to install the library. <br>
