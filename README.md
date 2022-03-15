@@ -33,3 +33,7 @@ You can change the dotenv.config base path by adding a NODE_ENV: <br>
 }) <br>
 </em>
 2) Call your application this way: NODE_ENV=your_env node app.js
+
+## Remembering
+- .env is always for STRING type
+- === compares also the type, so 1 === "1" is FALSE, but 1 == "1" is TRUE
