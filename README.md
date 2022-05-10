@@ -32,8 +32,8 @@ You can change the dotenv.config base path by adding a NODE_ENV: <br>
     path: process.env.NODE_ENV === "develop" ? ".env.example" : ".env" <br>
 }) <br>
 </em>
-2) Call your application this way: NODE_ENV=your_env node app.js
-3) If you are using nodemon, just do it: set NODE_ENV=dev&& nodemon .....
+2) Call your application this way: NODE_ENV=your_env node app.js <br>
+3) If you are using nodemon, just do it: NODE_ENV=dev nodemon .....
 
 ## Remembering
 - .env is always for STRING type
